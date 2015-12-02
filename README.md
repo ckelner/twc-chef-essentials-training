@@ -49,6 +49,7 @@ Using hosted chef
 
 ### Kitchen
 - `kitchen test`
+- `kitchen verify`
 
 ### Berks
 - `berks install`
