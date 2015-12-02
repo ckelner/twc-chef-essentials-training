@@ -4,6 +4,11 @@ twc-chef-training-day-2
 ## Common commands
 
 ### From Day 1
+
+_See the following repos for day 1 activity:_
+- _https://github.com/ckelner/twc-chef-training-apache-cookbook_
+- _https://github.com/ckelner/twc-chef-training-workstation-cookbook_
+
 Using chef-zero
 Work done an a remote EC2 instance supplied by OpsCode.
 
