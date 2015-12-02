@@ -30,6 +30,11 @@ Using hosted chef
 - `knife ssh "name:<nodename>" -x <user> -P <pass> "sudo chef-client"`
   - Seems janky.
 - `knife role from file <role-filename>`
+- `knife role list`
+- `knife role show <role-name>`
+- `knife node run_list set <nodename> "role[<rolename>]"`
+- `knife ssh "role:<rolename>" -x user -P pass "sudo chef-client"`
+  - Seems janky.
 ### Kitchen
 - `kitchen test`
 ### Berks
