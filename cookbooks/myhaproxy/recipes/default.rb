@@ -4,7 +4,7 @@
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
 
-node['haproxy']['members'] = [
+node.default['haproxy']['members'] = [
   {
     'hostname' => 'ec2-52-91-184-195.compute-1.amazonaws.com',
     'ipaddress' => '52.91.184.195',
