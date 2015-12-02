@@ -18,6 +18,8 @@ Using hosted chef
 ### Knife
 - `knife client list`
 - `knife cookbook list`
+- `knife bootstrap <ipaddr-hostname> -x user -P pass --sudo -N node1`
+  - Seems janky and something I'd never do.
 ### Kitchen
 - `kitchen test`
 ### Berks
