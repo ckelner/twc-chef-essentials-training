@@ -27,7 +27,7 @@ Using hosted chef
 - `knife node run_list add <nodename> "recipe[<receipename>]"`
 - `knife node show <nodename> -a <attribute>`
   - Gets specific bits of data about node
-- `knife ssh <nodename> -x <user> -P <pass> "sudo chef-client"`
+- `knife ssh "name:<nodename>" -x <user> -P <pass> "sudo chef-client"`
   - Seems janky.
 ### Kitchen
 - `kitchen test`
