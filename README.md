@@ -20,9 +20,11 @@ Using hosted chef
 - `knife cookbook list`
 - `knife bootstrap <ipaddr-hostname> -x user -P pass --sudo -N node1`
   - Seems janky and something I'd never do.
+- `knife node list`
+- `knife node show <nodename>`
+- `knife node run_list add <nodename> "recipe[<receipename>]"`
 ### Kitchen
 - `kitchen test`
 ### Berks
 - `berks install`
 - `berks upload`
-- ``
