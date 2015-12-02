@@ -35,6 +35,10 @@ Using hosted chef
 - `knife node run_list set <nodename> "role[<rolename>]"`
 - `knife ssh "role:<rolename>" -x user -P pass "sudo chef-client"`
   - Seems janky.
+- `knife environment list`
+- `knife environment show <env-name>`
+- `knife search node "*:*"`
+  - Show all nodes
 ### Kitchen
 - `kitchen test`
 ### Berks
