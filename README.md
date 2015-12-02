@@ -39,6 +39,7 @@ Using hosted chef
 - `knife environment show <env-name>`
 - `knife search node "*:*"`
   - Show all nodes
+- `knife node environment set <nodename> <env-name>`
 ### Kitchen
 - `kitchen test`
 ### Berks
