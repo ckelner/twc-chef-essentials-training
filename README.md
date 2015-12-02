@@ -1,12 +1,11 @@
 twc-chef-training-day-2
 ===============
 
-Work done from local workstation instead of remote EC2 instance.
-
 # Common commands
 
 ## From Day 1
 Using chef-zero
+Work done an a remote EC2 instance supplied by OpsCode.
 
 ### Chef
 - `chef generate template <filename>`
@@ -20,6 +19,7 @@ Using chef-zero
 
 ## From Day 2
 Using hosted chef
+Work done from local workstation instead of remote EC2 instance.
 
 ### Knife
 - `knife client list`
