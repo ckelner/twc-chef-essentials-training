@@ -29,6 +29,7 @@ Using hosted chef
   - Gets specific bits of data about node
 - `knife ssh "name:<nodename>" -x <user> -P <pass> "sudo chef-client"`
   - Seems janky.
+- `knife role from file <role-filename>`
 ### Kitchen
 - `kitchen test`
 ### Berks
