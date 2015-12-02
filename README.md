@@ -14,6 +14,7 @@ Using chef-zero
 ### Chef-apply
 - `chef-apply recipes/<recipe-file-name>``
 ## From Day 2
+Using hosted chef
 ### Knife
 - `knife client list`
 - `knife cookbook list`
