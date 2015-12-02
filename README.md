@@ -1,27 +1,27 @@
 twc-chef-training-day-2
 ===============
 
-# Common commands
+## Common commands
 
-## From Day 1
+### From Day 1
 Using chef-zero
 Work done an a remote EC2 instance supplied by OpsCode.
 
-### Chef
+#### Chef
 - `chef generate template <filename>`
 - `chef generate cookbook <new cookbook name>`
 
-### Chef-client
+#### Chef-client
 - `chef-client --local-mode -r "recipe[apache]"`
 
-### Chef-apply
+#### Chef-apply
 - `chef-apply recipes/<recipe-filename>`
 
-## From Day 2
+### From Day 2
 Using hosted chef
 Work done from local workstation instead of remote EC2 instance.
 
-### Knife
+#### Knife
 - `knife client list`
 - `knife cookbook list`
 - `knife bootstrap <ipaddr-hostname> -x user -P pass --sudo -N node1`
@@ -47,10 +47,10 @@ Work done from local workstation instead of remote EC2 instance.
   - Show all nodes
 - `knife node environment set <nodename> <env-name>`
 
-### Kitchen
+#### Kitchen
 - `kitchen test`
 - `kitchen verify`
 
-### Berks
+#### Berks
 - `berks install`
 - `berks upload`
