@@ -16,7 +16,7 @@ Using chef-zero
 - `chef-client --local-mode -r "recipe[apache]"`
 
 ### Chef-apply
-- `chef-apply recipes/<recipe-filename>``
+- `chef-apply recipes/<recipe-filename>`
 
 ## From Day 2
 Using hosted chef
