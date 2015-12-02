@@ -19,10 +19,14 @@ Using hosted chef
 - `knife client list`
 - `knife cookbook list`
 - `knife bootstrap <ipaddr-hostname> -x user -P pass --sudo -N node1`
-  - Seems janky and something I'd never do.
+  - Adds an existing machine as a node.  Seems janky and something I'd never do.
 - `knife node list`
+  - Shows all nodes chef server knows about
 - `knife node show <nodename>`
+  - returns all data about a node
 - `knife node run_list add <nodename> "recipe[<receipename>]"`
+- `knife node show <nodename> -a <attribute>`
+  - Gets specific bits of data about node
 ### Kitchen
 - `kitchen test`
 ### Berks
