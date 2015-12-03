@@ -1,4 +1,4 @@
-twc-chef-training-day-2
+twc-chef-essentials-training
 ===============
 
 This is the work I captured during days 1 and 2 of Chef essentials training in ATL 2015/12/01 - 2015/12/02.
