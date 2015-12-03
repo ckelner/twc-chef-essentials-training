@@ -14,6 +14,8 @@ Day 2 consisted of more of the same, with the benefit of working from our local 
 
 ## Common commands
 
+I believe most of these to be pretty self explainatory, if not the `--help` is really robust, plus [https://docs.chef.io/](https://docs.chef.io/) is really dense and verbose, so it felt like a wasted effort.  I left some notes where I thought it was applicable.
+
 ### From Day 1
 
 Using chef-zero
@@ -37,7 +39,7 @@ Work done from local workstation instead of remote EC2 instance.
 - `knife client list`
 - `knife cookbook list`
 - `knife bootstrap <ipaddr-hostname> -x user -P pass --sudo -N node1`
-  - Adds an existing machine as a node.  Seems janky and something I'd never do.
+  - Adds an existing machine as a node.  Seems janky and something I'd never do. (maybe I'm wrong)
 - `knife node list`
   - Shows all nodes chef server knows about
 - `knife node show <nodename>`
@@ -46,13 +48,13 @@ Work done from local workstation instead of remote EC2 instance.
 - `knife node show <nodename> -a <attribute>`
   - Gets specific bits of data about node
 - `knife ssh "name:<nodename>" -x <user> -P <pass> "sudo chef-client"`
-  - Seems janky.
+  - Seems janky. (maybe I'm wrong)
 - `knife role from file <role-filename>`
 - `knife role list`
 - `knife role show <role-name>`
 - `knife node run_list set <nodename> "role[<rolename>]"`
 - `knife ssh "role:<rolename>" -x user -P pass "sudo chef-client"`
-  - Seems janky.
+  - Seems janky. (maybe I'm wrong)
 - `knife environment list`
 - `knife environment show <env-name>`
 - `knife search node "*:*"`
