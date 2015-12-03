@@ -1,13 +1,20 @@
 twc-chef-training-day-2
 ===============
 
-## Common commands
-
-### From Day 1
+This is the work I captured during days 1 and 2 of Chef essentials training in ATL 2015/12/01 - 2015/12/02.
+The instructors guide (only availble to TWC employees) can be found [by clicking here](https://drive.google.com/open?id=0B7e8h9mtaJSSN1Y2ZWlxeUgwa2J0TDBRVTJRUE1MSlZiZjZJ).
 
 _See the following repos for day 1 activity:_
 - _https://github.com/ckelner/twc-chef-training-apache-cookbook_
 - _https://github.com/ckelner/twc-chef-training-workstation-cookbook_
+
+Day 1 was comprised of creating recipes, cookbooks, and templates on a remote (EC2) workstation, using the `chef-apply` (using chef-zero [in-memory chef server]) command on that workstation, and running `kitchen` to test those recipes and cookbooks.
+
+Day 2 consisted of more of the same, with the benefit of working from our local dev machine, using a hosted chef server (chef.io), working with the `knife` CLI tool to manipulate remote nodes, and berks to interacte with the hosted chef server.
+
+## Common commands
+
+### From Day 1
 
 Using chef-zero
 Work done an a remote EC2 instance supplied by OpsCode.
